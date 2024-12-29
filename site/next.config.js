@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'AN\'s registry',
     description: 'Workspaces for web development.',
     icon: '/img/logo.svg',
-    listUrl: 'https://github.com/anakhwa/kasm_dev_workspaces/',
+    listUrl: 'https://anakhwa.github.com/kasm_dev_workspaces/',
     contactUrl: 'https://github.com/anakhwa',
   },
   reactStrictMode: true,

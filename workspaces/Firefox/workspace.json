@@ -17,9 +17,12 @@
   "categories": [
     "Browser"
   ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
   "friendly_name": "Firefox",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ]
 }

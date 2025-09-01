@@ -1,0 +1,25 @@
+{
+  "description": "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "Firefox_logo,_2019.svg.png",
+  "name": "lscr.io/linuxserver/firefox:kasm",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Firefox",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+}
